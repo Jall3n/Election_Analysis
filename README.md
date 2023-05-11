@@ -2,7 +2,7 @@
 
 ## Overview of Election Audit
 The election audit results have been submitted to the election commission, however, they have requested we provide additional data to complete the audit. Utilizing Python and working from a csv we want to use for loops and conditional statements to find the comission's requested results to create a final text file of the results. 
-### Additional Data
+### Additional Data Needed
 - Voter turnout for each county
 - Percentage of votes from each county out of the total count
 - County with the highest turnout
@@ -15,6 +15,22 @@ The election audit results have been submitted to the election commission, howev
 - Winner: Diana DeGette with 73.8% or 272,892 votes
 
 ## Election Audit Summary
+
+The initial code was looking for the winning candidate data. However, to expand upon and make the results more dynamic we wanted to pull in the county data. Especially, since having the county data helps determine where the largest contributors are located.
+
+Additionally, the commission can potentially add in county population, age, demographics, and socioeconomic status. Expanding upon this data can help the winner and future candiates pip point areas of interest.
+
+Create a county list and county votes dictionary.
+
+    county_list = []
+    county_votes = {}
+
+Track the largest county and county voter turnout.
+
+    largest_county = ""
+    largest_county_votes = 0
+    largest_county_percentage = 0
+
 
 ## Challenge
 ### Import os: 
