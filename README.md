@@ -17,7 +17,8 @@ The election audit results have been submitted to the election commission, howev
 ## Election Audit Summary
 
 ## Challenge
-Import os: I was struggling to load the csv and save the file to the os path using the method below. So, to solve I had to input the file path and remove os.path.join
+### Import os: 
+I was struggling to load the csv and save the file to the os path using the method below. So, for a solution I input the file path and removed os.path.join
 Add a variable to load a file from a path.
 file_to_load = os.path.join("Resources", "election_results.csv")
 Add a variable to save the file to a path.
