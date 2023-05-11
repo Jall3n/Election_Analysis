@@ -8,6 +8,8 @@ The election audit results have been submitted to the election commission, howev
 - County with the highest turnout
 
 ## Election Audit Results
+![Election Results](https://github.com/Jall3n/Election_Analysis/assets/119149740/bf8b3e5f-8426-4674-95fd-bbe9f5523f28)
+
 
 ## Election Audit Summary
 
