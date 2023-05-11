@@ -10,6 +10,10 @@ The election audit results have been submitted to the election commission, howev
 ## Election Audit Results
 ![Election Results](https://github.com/Jall3n/Election_Analysis/assets/119149740/bf8b3e5f-8426-4674-95fd-bbe9f5523f28)
 
+Total Votes: 369,711
+Highest County Votes: Denver with 82.8% or 306,055 votes
+Winner: Diana DeGette with 73.8% or 272,892 votes
+
 
 ## Election Audit Summary
 
