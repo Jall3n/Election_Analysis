@@ -46,5 +46,5 @@ file_to_save = os.path.join("analysis", "election_analysis.txt")
 
 
 
-1.) https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-2.) https://docs.python.org/3/library/os.html
+1. https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+2. https://docs.python.org/3/library/os.html
