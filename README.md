@@ -35,13 +35,15 @@ Track the largest county and county voter turnout.
 ## Challenge
 ### Import os: 
 I was struggling to load the csv and save the file to the os path using the method below. So, for a solution I input the file path and removed os.path.join
-Add a variable to load a file from a path.
-file_to_load = os.path.join("Resources", "election_results.csv")
-Add a variable to save the file to a path.
-file_to_save = os.path.join("analysis", "election_analysis.txt")
 
-    file_to_load = '../UNC_Bootcamp/0-Modules/Module-3/Code/Resources/election_results.csv'
-    file_to_save = '../UNC_Bootcamp/0-Modules/Module-3/Code/analysis/election_results.txt'
+Add a variable to load a file from a path.
+- file_to_load = os.path.join("Resources", "election_results.csv")
+
+Add a variable to save the file to a path.
+- file_to_save = os.path.join("analysis", "election_analysis.txt")
+
+        file_to_load = '../UNC_Bootcamp/0-Modules/Module-3/Code/Resources/election_results.csv'
+        file_to_save = '../UNC_Bootcamp/0-Modules/Module-3/Code/analysis/election_results.txt'
 
 
 
