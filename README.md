@@ -20,16 +20,34 @@ The initial code was looking for the winning candidate data. However, to expand 
 
 Additionally, the commission can potentially add in county population, age, demographics, and socioeconomic status. Expanding upon this data can help the winner and future candiates pip point areas of interest.
 
-Create a county list and county votes dictionary.
+- Inputting code for the county data and results:
+
+List and Dictionary
 
     county_list = []
     county_votes = {}
-
-Track the largest county and county voter turnout.
+    
+Array
 
     largest_county = ""
     largest_county_votes = 0
     largest_county_percentage = 0
+    
+    county_name = row[1]
+
+If the candidate does not match any existing candidate add it to the candidate list:
+
+    if candidate_name not in candidate_options:
+        candidate_options.append(candidate_name)
+        candidate_votes[candidate_name] = 0
+        candidate_votes[candidate_name] += 1
+        
+Write a for loop to get the county from the county dictionary.
+
+    for county_name in county_votes:
+        voteCount = county_votes.get(county_name)
+        votePercent = float(voteCount) / float(total_votes) * 100
+
 
 
 ## Challenge
