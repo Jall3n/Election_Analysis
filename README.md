@@ -48,6 +48,13 @@ Write a for loop to get the county from the county dictionary.
         voteCount = county_votes.get(county_name)
         votePercent = float(voteCount) / float(total_votes) * 100
 
+Write an if statement to determine the winning county and get its vote count.
+     
+     if (voteCount > largest_county_votes) and (votePercent > largest_county_percentage):
+        largest_county_votes = voteCount
+        largest_county = county_name
+        largest_county_percentage = votePercent
+
 
 
 ## Challenge
