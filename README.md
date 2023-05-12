@@ -20,7 +20,7 @@ The initial code was looking for the winning candidate data. However, to expand 
 
 Additionally, the commission can potentially add in county population, age, demographics, and socioeconomic status. Expanding upon this data can help the winner and future candiates pip point areas of interest.
 
-- Inputting code for the county data and results:
+## Inputting code for the county data and results:
 
 List and Dictionary
 
